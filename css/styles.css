@@ -4,6 +4,18 @@ color: #666;
 font-family: verdana;
 line-height: 1.2;
 }
+body::-webkit-scrollbar-thumb {
+background-color: rgba(0, 0, 0, 0.2);
+}
+body::-webkit-scrollbar {
+background: transparent url('../images/bkg.jpg') top left repeat;
+height: 7px;
+overflow: visible;
+width: 16px;
+}
+body::-webkit-scrollbar-thumb:hover {
+background:rgba(0,0,0,0.3);
+}
 a {
 color: #004A7F;
 text-decoration: none;
@@ -19,13 +31,26 @@ border-bottom: 2px solid #A7A7A7;
 width: 100%;
 margin: 12px 0;
 }
+h1 {
+color: #004A7F;
+line-height: 1.6;
+margin: 5px 0;
+font-size: 16pt;
+}
+p {
+margin-bottom: 8px;
+}
 .relative {
 position: relative;
 }
-#home-name-box {
+.show-details {
+margin-bottom: 5px;
+}
+#content-box {
 position: absolute;
 top: 100px;
 left: 120px;
+width: 480px;
 }
 #home-name-wrapper {
 height: 77px;
@@ -66,4 +91,38 @@ margin-right:4px;
 }
 #home-name-footer {
 font-size: 10pt;
+}
+#nav-box {
+position: fixed;
+top: 100px;
+left: 650px;
+}
+.nav-menu-item {
+position: relative;
+margin-bottom: 10px;
+cursor: pointer;
+}
+.nav-menu-bkg {
+background-color: #A7A7A7;
+width: 250px;
+height: 32px;
+opacity: 0.4;
+filter:alpha(opacity=40);
+}
+.nav-menu-link {
+position: absolute;
+top: 0;
+left: 0;
+width: 250px;
+height: 32px;
+text-align: center;
+padding-top: 8px;
+}
+.nav-menu-link a {
+color: #fff;
+text-decoration: none;
+}
+#resume {
+font-size: 10pt;
+line-height: 1.4;
 }

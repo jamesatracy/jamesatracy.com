@@ -10,7 +10,7 @@ $this->end();
 // ****** SCRIPTS
 $this->prepend("scripts");
 echo $this->html->script("https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js");
-//echo $this->html->script("/js/common.min.js");
+echo $this->html->script("/js/common.js");
 $this->end();
 ?>
 
