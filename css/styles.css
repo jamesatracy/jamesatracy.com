@@ -1,0 +1,69 @@
+body {
+background: transparent url('../images/bkg.jpg') top left repeat;
+color: #666;
+font-family: verdana;
+line-height: 1.2;
+}
+a {
+color: #004A7F;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+hr {
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 2px solid #A7A7A7;
+width: 100%;
+margin: 12px 0;
+}
+.relative {
+position: relative;
+}
+#home-name-box {
+position: absolute;
+top: 100px;
+left: 120px;
+}
+#home-name-wrapper {
+height: 77px;
+}
+#home-name {
+position: absolute;
+top: 0;
+left: 60px;
+font-size: 32pt;
+color: #444;
+line-height: 1.8;
+}
+#home-name-gravatar {
+position: absolute;
+left: 0;
+top: 16px;
+}
+#home-name-gravatar img {
+width: 48px;
+height: 48px;
+}
+#home-name-description {
+width: 480px;
+margin-bottom: 16px;
+}
+#home-name-description a {
+color: #666;
+text-decoration: none;
+}
+#home-name-description a:hover {
+text-decoration: underline;
+}
+#home-name-links {
+line-height: 1.8;
+}
+#home-name-links img {
+margin-right:4px;
+}
+#home-name-footer {
+font-size: 10pt;
+}
