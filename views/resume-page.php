@@ -9,10 +9,13 @@ $this->extend("menu-template");
 			<div id="home-name">James A. Tracy</div>
 			<div id="home-name-gravatar"><img src="http://www.gravatar.com/avatar/0fa60c9b65d1814105b5001043b90c2a.png" alt="James A Tracy Gravatar" /></div>
 		</div>
+		
+		<br/>
 		<h1>Education</h1>
 		<p>Master of Arts, History of Science, <a href="http://ucsd.edu">University of California San Diego</a>, 2010</p>
 		<p>Bachelor of Arts, Computer Science, <a href="http://sandiego.edu">University of San Diego</a>, 2004</p>
 		
+		<br/>
 		<h1>Skills</h1>
 		<p>Web application development and design, software application architecture and object-oriented programming, user interface development and design, database programming, search engine optimization.</p>
 		
@@ -20,8 +23,9 @@ $this->extend("menu-template");
 		<p>C/C++, CSS, Java, Javascript, MySQL, PHP, (X)HTML, XML</p>
 
 		<p><strong>Frameworks &amp; Technologies</strong></p>
-		<p>Ajax, <a href="http://www.backbonejs.org">Backbone.js</a>, Git, jQuery, LAMP/WAMP, MFC, Perforce, phpMyAdmin, SVN, Win32, <a href="http://www.wordpress.org">Wordpress</a></p>
+		<p>Ajax, <a href="http://www.backbonejs.org">Backbone.js</a>, Git, <a href="http://www.jquery.com">jQuery</a>, LAMP/WAMP, MFC, Perforce, phpMyAdmin, SVN, Win32, <a href="http://www.wordpress.org">Wordpress</a></p>
 
+		<br/>
 		<h1>Professional Experience</h1>
 
 		<p><strong>Senior Developer, Azalea Health Innovations, Inc.</strong><br/>
@@ -107,6 +111,7 @@ $this->extend("menu-template");
 			</ul>
 		</div>
 
+		<br/>
 		<h1>Presentations</h1>
 
 		<p>"Battle of the Books: Science Education and America's Culture Wars," Invited Talk. June 12, 2010.</p>
@@ -114,6 +119,7 @@ $this->extend("menu-template");
 		<p>"Was the Tennessee Anti-Evolution Law a Symbolic Protest?" Conference. February 5, 2010, January 23, 2010.</p>
 		<p>"An Open Road to Learning? Evolution and the Politics of Education in North Carolina and Tennessee, 1925," Conference. October 12, 2009.</p>
 
+		<br/>
 		<h1>Awards &amp; Honors</h1>
 
 		<p>UCSD Student Book Collection Competition Graduate Division Winner, 2010, "Charles Darwin: A History of Biography and Interpretation"</p>

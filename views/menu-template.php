@@ -15,5 +15,9 @@
 			<div class="nav-menu-bkg"></div>
 			<div class="nav-menu-link"><a href="<?php echo Backbone::$request->link("/resume/"); ?>">Resum&eacute;</a></div>
 		</div>
+		<div class="nav-menu-item">
+			<div class="nav-menu-bkg"></div>
+			<div class="nav-menu-link"><a href="<?php echo Backbone::$request->link("/reading/"); ?>">Reading</a></div>
+		</div>
 	</div>
 <?php $this->end(); ?>

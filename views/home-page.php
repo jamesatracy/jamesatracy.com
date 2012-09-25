@@ -9,7 +9,8 @@ $this->extend("menu-template");
 		<div id="home-name-gravatar"><img src="http://www.gravatar.com/avatar/0fa60c9b65d1814105b5001043b90c2a.png" alt="James A Tracy Gravatar" /></div>
 	</div>
 	<div id="home-name-description">
-		I am a software engineer, writer, and history buff living in Valdosta, GA. Currently I am a Web Developer with <a href="http://www.azaleahealth.com/">Azalea Health Innovations</a>, where I work on cutting-edge cloud-based electronic health information technology.
+		<p>I am a software engineer and history buff living in Valdosta, GA. Currently I am a Web Developer with <a href="http://www.azaleahealth.com/">Azalea Health Innovations</a>, where I work on cutting-edge, cloud-based electronic health information technology.</p>
+		<p>In addition to developing software applications for the web, my professional experience includes C/C++ programming and mobile handset development. I also have a Master's degree in the History of Science and have taught college level writing courses.</p>
 	</div>
 	<hr/>
 	<div id="home-name-links">

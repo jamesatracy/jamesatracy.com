@@ -37,6 +37,9 @@ line-height: 1.6;
 margin: 5px 0;
 font-size: 16pt;
 }
+h2 {
+line-height: 1.8;
+}
 p {
 margin-bottom: 8px;
 }
@@ -50,7 +53,7 @@ margin-bottom: 5px;
 position: absolute;
 top: 100px;
 left: 120px;
-width: 480px;
+width: 580px;
 }
 #home-name-wrapper {
 height: 77px;
@@ -73,7 +76,7 @@ width: 48px;
 height: 48px;
 }
 #home-name-description {
-width: 480px;
+width: 580px;
 margin-bottom: 16px;
 }
 #home-name-description a {
@@ -95,7 +98,7 @@ font-size: 10pt;
 #nav-box {
 position: fixed;
 top: 100px;
-left: 650px;
+left: 750px;
 }
 .nav-menu-item {
 position: relative;
