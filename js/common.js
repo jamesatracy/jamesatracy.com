@@ -4,7 +4,7 @@ $(function () {
 	$(".nav-menu-item").hover(function () {
 		$(this).find(".nav-menu-bkg").css({"opacity": "1"});
 	}, function () {
-		$(this).find(".nav-menu-bkg").css({"opacity": "0.4"});
+		$(this).find(".nav-menu-bkg").css({"opacity": "0.6"});
 	})
 	.click(function () {
 		var $a = $(this).find(".nav-menu-link a");

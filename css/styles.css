@@ -109,8 +109,8 @@ cursor: pointer;
 background-color: #A7A7A7;
 width: 250px;
 height: 32px;
-opacity: 0.4;
-filter:alpha(opacity=40);
+opacity: 0.6;
+filter:alpha(opacity=60);
 }
 .nav-menu-link {
 position: absolute;
