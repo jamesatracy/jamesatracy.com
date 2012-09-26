@@ -35,8 +35,8 @@ $this->extend("menu-template");
 		<div id="resume-ahi" style="display:none">
 			<ul>
 				<li>Developed a custom JavaScript rich Client-Server application framework and back-end Restful API interfaces from the ground up to power Azalea's next generation of web applications.</li>
-				<li>Lead developer for Azalea EHR, an electronic health records platform.</li>
-				<li>Lead developer for Azalea PHR, an online patient portal module.</li>
+				<li>Lead developer for Azalea EHR, a cloud-based electronic health records platform.</li>
+				<li>Lead developer for Azalea PHR, a cloud-based patient health portal.</li>
 				<li>Assisted with a successful product certification for Meaningful Use Stage 1.</li>
 				<li>Design and maintenance of www.azaleahealth.com (2012)</li>
 				<li>Design and maintenance of www.smithhospital.com (2011)</li>
