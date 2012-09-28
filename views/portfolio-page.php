@@ -11,15 +11,15 @@ $this->extend("menu-template");
 		<table width="100%">
 			<tr>
 				<td class="top middle">
-					<?php echo $this->html->image("/images/azaleahealth.com.thumb.jpg", array("alt" => "Azalea Health Innovations", "title" => "Azalea Health Innovations")); ?>
+					<a href="<?php echo Backbone::$request->link("/portfolio/azaleahealth.com/"); ?>"><?php echo $this->html->image("/images/azaleahealth.com.thumb.jpg", array("alt" => "Azalea Health Innovations", "title" => "Azalea Health Innovations")); ?></a>
 				</td>
 				<td class="top middle">
-					<?php echo $this->html->image("/images/halprinlaw.com.thumb.jpg", array("alt" => "HalprinLaw", "title" => "HalprinLaw")); ?>
+					<a href="<?php echo Backbone::$request->link("/portfolio/halprinlaw.com/"); ?>"><?php echo $this->html->image("/images/halprinlaw.com.thumb.jpg", array("alt" => "HalprinLaw", "title" => "HalprinLaw")); ?></a>
 				</td>
 			</tr>
 			<tr>
 				<td class="top middle">
-					<?php echo $this->html->image("/images/smithhospital.com.thumb.jpg", array("alt" => "SMITH Hospital", "title" => "SMITH Hospital")); ?>
+					<a href="<?php echo Backbone::$request->link("/portfolio/smithhospital.com/"); ?>"><?php echo $this->html->image("/images/smithhospital.com.thumb.jpg", array("alt" => "SMITH Northview Hospital", "title" => "SMITH Northview Hospital")); ?></a>
 				</td>
 				<td class="top middle">
 				</td>
