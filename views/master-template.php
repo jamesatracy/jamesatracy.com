@@ -27,8 +27,6 @@ $this->end();
 <body>
 	<?php $this->display("menubar-template"); ?>
 	<div id="main">
-		<?php $this->display("masthead-template"); ?>
-		<?php $this->render("banner"); // if present ?>
 		<div id="content" class="wrapper">
 			<?php $this->render("content"); ?>
 		</div>

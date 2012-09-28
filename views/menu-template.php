@@ -17,6 +17,10 @@
 		</div>
 		<div class="nav-menu-item">
 			<div class="nav-menu-bkg"></div>
+			<div class="nav-menu-link"><a href="<?php echo Backbone::$request->link("/portfolio/"); ?>">Portfolio</a></div>
+		</div>
+		<div class="nav-menu-item">
+			<div class="nav-menu-bkg"></div>
 			<div class="nav-menu-link"><a href="<?php echo Backbone::$request->link("/reading/"); ?>">Reading</a></div>
 		</div>
 	</div>

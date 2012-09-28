@@ -5,11 +5,7 @@ $this->extend("menu-template");
 	
 <?php $this->define("content"); ?>
 	<div id="resume">
-		<div id="home-name-wrapper" class="relative">
-			<div id="home-name">James A. Tracy</div>
-			<div id="home-name-gravatar"><img src="http://www.gravatar.com/avatar/0fa60c9b65d1814105b5001043b90c2a.png" alt="James A Tracy Gravatar" /></div>
-		</div>
-		
+		<?php $this->display("name-header"); ?>
 		<br/>
 		<h1>Education</h1>
 		<p>Master of Arts, History of Science, <a href="http://ucsd.edu">University of California San Diego</a>, 2010</p>
@@ -34,12 +30,11 @@ $this->extend("menu-template");
 		<div class="show-details" data-target="resume-ahi"><a href="javascript:void(0);">Show Details</a></div>
 		<div id="resume-ahi" style="display:none">
 			<ul>
-				<li>Developed a custom JavaScript rich Client-Server application framework and back-end Restful API interfaces from the ground up to power Azalea's next generation of web applications.</li>
 				<li>Lead developer for Azalea EHR, a cloud-based electronic health records platform.</li>
 				<li>Lead developer for Azalea PHR, a cloud-based patient health portal.</li>
-				<li>Assisted with a successful product certification for Meaningful Use Stage 1.</li>
-				<li>Design and maintenance of www.azaleahealth.com (2012)</li>
-				<li>Design and maintenance of www.smithhospital.com (2011)</li>
+				<li>Contributed to the successful certification of Azalea EHR for Meaningful Use Stage 1 (ONC's Standards &amp; Certification Criteria 2011).</li>
+				<li>Developed a custom JavaScript application framework and back-end Restful API interfaces from the ground up to power Azalea's next generation of web applications.</li>
+				<li>Design and maintenance of websites: azaleahealth.com (2012) and smithhospital.com (2011)</li>
 			</ul>
 				
 			<p>Technologies: HTML, CSS, PHP, Javascript, jQuery, MySQL</p>
@@ -52,7 +47,7 @@ $this->extend("menu-template");
 		<div class="show-details" data-target="resume-kyocera2"><a href="javascript:void(0);">Show Details</a></div>
 		<div id="resume-kyocera2" style="display:none">
 			<ul>
-				<li>Assisted with the integration of third party messaging, Java virtual machine, and browser clients with core user interface software.</li>
+				<li>Assisted with the integration of third party messaging (SMS and MMS), Java virtual machine, and browser clients with core user interface software.</li>
 				<li>Provided supervision and consultation and worked on detailed software and code documentation.</li>
 			</ul>
 			<p>Technologies: C/C++, Windows, ARM Assembly</p>
