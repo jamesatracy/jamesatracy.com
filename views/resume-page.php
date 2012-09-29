@@ -7,6 +7,8 @@ $this->extend("menu-template");
 	<div id="resume">
 		<?php $this->display("name-header"); ?>
 		<br/>
+		<p><a href="<?php echo Backbone::$request->link("/docs/james-tracy-resume2012.pdf"); ?>">Download as PDF</a></p>
+		
 		<h1>Education</h1>
 		<p>Master of Arts, History of Science, <a href="http://ucsd.edu">University of California San Diego</a>, 2010</p>
 		<p>Bachelor of Arts, Computer Science, <a href="http://sandiego.edu">University of San Diego</a>, 2004</p>
