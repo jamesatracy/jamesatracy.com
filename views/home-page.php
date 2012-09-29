@@ -9,10 +9,5 @@ $this->extend("menu-template");
 		<p>I am a Senior Developer with <a href="http://www.azaleahealth.com/">Azalea Health Innovations</a>, where I work on cutting-edge, cloud-based electronic health information technology.</p>
 		<p>In addition to developing software applications for the web, my professional experience includes C/C++ programming and mobile handset development. I also have a Master's degree in the History of Science and have taught college level writing courses.</p>
 	</div>
-	<hr/>
-	<div id="home-name-links">
-		<a href="http://www.linkedin.com/in/jamesatracy"><?php echo $this->html->image("/images/linkedin.png", array("alt" => "LinkedIn Profile")); ?></a>
-		<a href="https://github.com/jamesatracy"><?php echo $this->html->image("/images/github.png", array("alt" => "GitHub Profile")); ?></a>
-		<a href="http://www.twitter.com/jamesatracy"><?php echo $this->html->image("/images/twitter.png", array("alt" => "Twitter Profile")); ?></a>
-	</div>
+	<?php $this->display("links-footer"); ?>
 <?php $this->end(); ?>

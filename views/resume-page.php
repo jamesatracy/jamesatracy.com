@@ -19,7 +19,7 @@ $this->extend("menu-template");
 		<p>C/C++, CSS, Java, Javascript, MySQL, PHP, (X)HTML, XML</p>
 
 		<p><strong>Frameworks &amp; Technologies</strong></p>
-		<p>Ajax, <a href="http://www.backbonejs.org">Backbone.js</a>, Git, <a href="http://www.jquery.com">jQuery</a>, LAMP/WAMP, MFC, Perforce, phpMyAdmin, SVN, Win32, <a href="http://www.wordpress.org">Wordpress</a></p>
+		<p>Ajax, <a href="http://www.backbonejs.org" target="_blank">Backbone.js</a>, Git, <a href="http://www.jquery.com" target="_blank">jQuery</a>, LAMP/WAMP, MFC, Perforce, phpMyAdmin, <a href="http://www.pusher.com" target="_blank">Pusher</a>, SVN, Win32, <a href="http://www.wordpress.org">Wordpress</a></p>
 
 		<br/>
 		<h1>Professional Experience</h1>
@@ -30,9 +30,10 @@ $this->extend("menu-template");
 		<div class="show-details" data-target="resume-ahi"><a href="javascript:void(0);">Show Details</a></div>
 		<div id="resume-ahi" style="display:none">
 			<ul>
-				<li>Lead developer for Azalea EHR, a cloud-based electronic health records platform.</li>
-				<li>Lead developer for Azalea PHR, a cloud-based patient health portal.</li>
+				<li>Lead developer for <a href="http://www.azaleahealth.com/products/electronic-health-records/" target="_blank">Azalea EHR</a>, a cloud-based electronic health records platform.</li>
+				<li>Lead developer for <a href="http://www.azaleahealth.com/products/patient-health-portal/" target="_blank">Azalea PHR</a>, a cloud-based patient health portal.</li>
 				<li>Contributed to the successful certification of Azalea EHR for Meaningful Use Stage 1 (ONC's Standards &amp; Certification Criteria 2011).</li>
+				<li>Successfully integrated third-party applications and tools to enhance or extend core products, including: Electronic Prescribing, Speech Recognition, and Real Time web technologies.</li>
 				<li>Developed a custom JavaScript application framework and back-end Restful API interfaces from the ground up to power Azalea's next generation of web applications.</li>
 				<li>Design and maintenance of websites: azaleahealth.com (2012) and smithhospital.com (2011)</li>
 			</ul>
@@ -128,11 +129,6 @@ $this->extend("menu-template");
 		<p>UCSD Student Book Collection Competition Graduate Division Winner, 2008, "Darwinism, Evolution, and Religion"</p>
 		<p>History Department/Science Studies Fellowship, 2007-2008</p>
 
-		<hr/>
-		<div id="home-name-links">
-			<a href="http://www.linkedin.com/in/jamesatracy"><?php echo $this->html->image("/images/linkedin.png", array("alt" => "LinkedIn Profile")); ?></a>
-			<a href="https://github.com/jamesatracy"><?php echo $this->html->image("/images/github.png", array("alt" => "GitHub Profile")); ?></a>
-			<a href="http://www.twitter.com/jamesatracy"><?php echo $this->html->image("/images/twitter.png", array("alt" => "Twitter Profile")); ?></a>
-		</div>
+		<?php $this->display("links-footer"); ?>
 	</div>
 <?php $this->end(); ?>

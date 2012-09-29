@@ -27,5 +27,6 @@ $this->extend("menu-template");
 	<div class="clear"></div>
     <script src="http://www.goodreads.com/review/grid_widget/3732580.Recently%20Read?cover_size=medium&hide_link=true&hide_title=&num_books=10&order=d&shelf=read&sort=date_added&widget_id=1348538199" type="text/javascript" charset="utf-8"></script>
 	
-
+	<br/>
+	<a href="http://www.goodreads.com/user/show/3732580-james-tracy" target="_blank"><?php echo $this->html->image("/images/goodreads.png", array("alt" => "Goodreads")); ?></a>
 <?php $this->end(); ?>

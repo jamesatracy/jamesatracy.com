@@ -88,6 +88,7 @@ text-decoration: underline;
 }
 #home-name-links {
 line-height: 1.8;
+text-align: center;
 }
 #home-name-links img {
 margin-right:4px;
