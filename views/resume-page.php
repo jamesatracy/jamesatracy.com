@@ -71,9 +71,9 @@ $this->extend("menu-template");
 		<br/>
 		
 		<h1>Website Design</h1>
-		<div><a href="<?php echo Backbone::$request->link("/portfolio/azaleahealth.com/"); ?>">Azalea Health Innovations - www.azaleahealth.com</a></div>
-		<div><a href="<?php echo Backbone::$request->link("/portfolio/halprinlaw.com/"); ?>">HalprinLaw - www.halprinlaw.com</a></div>
-		<div><a href="<?php echo Backbone::$request->link("/portfolio/smithhospital.com/"); ?>">SMITH Northview Hospital - www.smithhospital.com</a></div>
+		<div><a href="<?php echo Backbone::$request->link("/portfolio/azaleahealth.com/"); ?>">www.azaleahealth.com</a></div>
+		<div><a href="<?php echo Backbone::$request->link("/portfolio/halprinlaw.com/"); ?>">www.halprinlaw.com</a></div>
+		<div><a href="<?php echo Backbone::$request->link("/portfolio/smithhospital.com/"); ?>">www.smithhospital.com</a></div>
 		<br/>
 		
 		<h1>Academic Experience</h1>
