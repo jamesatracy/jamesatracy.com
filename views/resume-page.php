@@ -7,7 +7,7 @@ $this->extend("menu-template");
 	<div id="resume">
 		<?php $this->display("name-header"); ?>
 		<br/>
-		<p><a href="<?php echo Backbone::$request->link("/docs/james-tracy-resume2012.pdf"); ?>">Download as PDF</a></p>
+		<p><a href="<?php echo Backbone::$request->link("/docs/james-tracy-resume2013.pdf"); ?>">Download as PDF</a></p>
 		
 		<h1>Education</h1>
 		<p>Master of Arts, History of Science, <a href="http://ucsd.edu">University of California San Diego</a>, 2010</p>
@@ -18,7 +18,7 @@ $this->extend("menu-template");
 		<p>Web application development and design, software application architecture and object-oriented programming, user interface development and design, database programming, search engine optimization.</p>
 		
 		<p><strong>Programming Languages</strong></p>
-		<p>C/C++, CSS, Java, Javascript, MySQL, PHP, (X)HTML, XML</p>
+		<p>C/C++, CSS, HTML, Java, Javascript, MySQL, PHP, XML</p>
 
 		<p><strong>Frameworks &amp; Technologies</strong></p>
 		<p>Ajax, <a href="http://www.backbonejs.org" target="_blank">Backbone.js</a>, Git, <a href="http://www.jquery.com" target="_blank">jQuery</a>, LAMP/WAMP, Perforce, phpMyAdmin, <a href="http://www.pusher.com" target="_blank">Pusher</a>, SVN, Win32, <a href="http://www.wordpress.org">Wordpress</a></p>
@@ -35,9 +35,10 @@ $this->extend("menu-template");
 				<li>Lead developer for <a href="http://www.azaleahealth.com/products/electronic-health-records/" target="_blank">Azalea EHR</a>, a cloud-based electronic health records platform.</li>
 				<li>Lead developer for <a href="http://www.azaleahealth.com/products/patient-health-portal/" target="_blank">Azalea PHR</a>, a cloud-based patient health portal.</li>
 				<li>Contributed to the successful certification of Azalea EHR for Meaningful Use Stage 1 (ONC's Standards &amp; Certification Criteria 2011).</li>
-				<li>Successfully integrated third-party applications and tools to enhance or extend core products, including: Electronic Prescribing, Speech Recognition, and Real Time web technologies.</li>
-				<li>Developed a custom JavaScript application framework and back-end Restful API interfaces from the ground up to power Azalea's next generation of web applications.</li>
-				<li>Design and maintenance of websites: azaleahealth.com (2012) and smithhospital.com (2011)</li>
+				<li>Successfully integrated third-party applications and tools to enhance or extend core products, including: Electronic Prescribing, Nuance Speech Recognition, and Real Time web technologies.</li>
+				<li>Developed a custom JavaScript application framework and PHP/MySQL Restful API interfaces from the ground up.</li>
+				<li>Design and maintenance of internal bug tracking software.</li>
+				<li>Design and maintenance of websites.</li>
 			</ul>
 				
 			<p>Technologies: HTML, CSS, PHP, Javascript, jQuery, Backbone.js, MySQL</p>
