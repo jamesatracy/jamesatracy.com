@@ -21,7 +21,7 @@ $this->extend("menu-template");
 		<p>C/C++, CSS, Java, Javascript, MySQL, PHP, (X)HTML, XML</p>
 
 		<p><strong>Frameworks &amp; Technologies</strong></p>
-		<p>Ajax, <a href="http://www.backbonejs.org" target="_blank">Backbone.js</a>, Git, <a href="http://www.jquery.com" target="_blank">jQuery</a>, LAMP/WAMP, MFC, Perforce, phpMyAdmin, <a href="http://www.pusher.com" target="_blank">Pusher</a>, SVN, Win32, <a href="http://www.wordpress.org">Wordpress</a></p>
+		<p>Ajax, <a href="http://www.backbonejs.org" target="_blank">Backbone.js</a>, Git, <a href="http://www.jquery.com" target="_blank">jQuery</a>, LAMP/WAMP, Perforce, phpMyAdmin, <a href="http://www.pusher.com" target="_blank">Pusher</a>, SVN, Win32, <a href="http://www.wordpress.org">Wordpress</a></p>
 
 		<br/>
 		<h1>Professional Experience</h1>
@@ -40,7 +40,7 @@ $this->extend("menu-template");
 				<li>Design and maintenance of websites: azaleahealth.com (2012) and smithhospital.com (2011)</li>
 			</ul>
 				
-			<p>Technologies: HTML, CSS, PHP, Javascript, jQuery, MySQL</p>
+			<p>Technologies: HTML, CSS, PHP, Javascript, jQuery, Backbone.js, MySQL</p>
 		</div>
 		<br/>
 		
@@ -68,6 +68,11 @@ $this->extend("menu-template");
 			</ul>
 			<p>Technologies: C/C++, Windows, ARM Assembly</p>
 		</div>
+		<br/>
+		
+		<h1>GitHub Projects</h1>
+		<div><a href="https://github.com/jamesatracy/Backbone.php">Backbone.php</a> (PHP Web Framework)</div>
+		<div><a href="https://github.com/jamesatracy/Modulerizer.js">Modulerizer.js</a> (Javascript Moduler / File Loader)</div>
 		<br/>
 		
 		<h1>Website Design</h1>
@@ -127,9 +132,11 @@ $this->extend("menu-template");
 		<h1>Awards &amp; Honors</h1>
 
 		<p>UCSD Student Book Collection Competition Graduate Division Winner, 2010, "Charles Darwin: A History of Biography and Interpretation"</p>
+		<p>Science Studies Program Research Travel Grant, 2009</p>
 		<p>UCSD Student Book Collection Competition Graduate Division Winner, 2009, "The Great Monkey Trial"</p>
 		<p>UCSD Student Book Collection Competition Graduate Division Winner, 2008, "Darwinism, Evolution, and Religion"</p>
 		<p>History Department/Science Studies Fellowship, 2007-2008</p>
+		<p>Summer Undergraduate Research Experience (SURE), University of San Diego, 2002</p>
 
 		<?php $this->display("links-footer"); ?>
 	</div>
