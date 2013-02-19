@@ -6,7 +6,9 @@ $this->extend("master-template");
 	<section id="home-main">
 		<header id="home-main-header" class="center">
 			<h1>James A Tracy</h1>
-			<div id="home-main-desc">I am a Senior Developer and Web Application Engineer with Azalea Health, where I work on web and cloud-based electronic health records, practice management, and patient portal systems.</div>
+			<div id="home-main-desc">
+				<p>I am a Senior Developer and Web Application Engineer with Azalea Health, where I work on web and cloud-based electronic health records, practice management, and patient portal systems.</p>
+			</div>
 			<div id="home-main-icons">
 				<ul>
 					<li><a href="mailto:james.a.tracy@gmail.com"><img src="<?php echo Backbone::$request->link("/img/mail.png"); ?>" width="64px" height="64px" alt="Email" title="Email" /></a></li>
@@ -16,6 +18,7 @@ $this->extend("master-template");
 				</ul>
 				<div class="clear"></div>
 			</div>
+			<p><a href="./download/james-tracy-resume2013.pdf">Download Resume</a></p>
 		</header>
 	</section>
 	
