@@ -48,7 +48,7 @@ $this->extend("master-template");
 		
 		<section class="column">
 			<h3>Azalea EHR</h3>
-			<p>Designed and developed overall platform and user interface for a web and cloud based Electronic Health Records and Practice Management application.</p>
+			<p class="left">Designed and developed overall platform and user interface for a web and cloud based Electronic Health Records and Practice Management application.</p>
 			<p><a href="http://www.azaleahealth.com/products/electronic-health-records/" target="_blank">Go to product page</a></p>
 			<ul class="tags">
 				<li>HTML</li>
@@ -61,9 +61,24 @@ $this->extend("master-template");
 			</ul>
 			
 			<hr/>
+			
+			<h3>Real-time Patient Chart</h3>
+			<p class="left">Designed and developed a web based medical charting system as part of Azalea EHR that allows the chart to be edited simultaneously and in real-time by multiple users. Makes use of the Pusher.js real-time web library.</p>
+			<ul class="tags">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+				<li>jQuery</li>
+				<li>Backbone.js</li>
+				<li>Pusher.js</li>
+				<li>PHP</li>
+				<li>MySQL</li>
+			</ul>
+			
+			<hr/>
 
 			<h3>Nuance SpeechAnywhere</h3>
-			<p>Integrated Nuance's SpeechAnywhere web based speech recogniztion software for healthcare into Azalea EHR to support physician dictation.</p>
+			<p class="left">Integrated Nuance's SpeechAnywhere web based speech recogniztion software for healthcare into Azalea EHR to support physician dictation.</p>
 			<ul class="tags">
 				<li>Javascript</li>
 			</ul>
@@ -71,7 +86,7 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>DevRequests</h3>
-			<p>Developed an internal development request system for tracking bugs and feature requests, assigning tasks to developers, and managing testing and release cycles.</p>
+			<p class="left">Developed an internal development request system for tracking bugs and feature requests, assigning tasks to developers, and managing testing and release cycles.</p>
 			<ul class="tags">
 				<li>Javascript</li>
 				<li>PHP</li>
@@ -81,7 +96,7 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>Backbone.php</h3>
-			<p>Backbone.php, much like its javascript namesake, is a small collection of php classes that provide structure or scaffolding for a php application or php powered website. It follows the Model-View-Controller (MVC) convention and includes classes for handling routes, database backed models, and HTML views.</p>
+			<p class="left">Backbone.php, much like its javascript namesake, is a small collection of php classes that provide structure or scaffolding for a php application or php powered website. It follows the Model-View-Controller (MVC) convention and includes classes for handling routes, database backed models, and HTML views.</p>
 			<p><a href="https://github.com/jamesatracy/Backbone.php" target="_blank">Go to GitHub page</a></p>
 			<ul class="tags">
 				<li>PHP</li>
@@ -91,7 +106,7 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>Font Manager</h3>
-			<p>Developed an internal font manager tool for Kyocera-Wireless for the purpose of generating and visually editing bitmap fonts for use on mobile handset devices.</p>
+			<p class="left">Developed an internal font manager tool for Kyocera-Wireless for the purpose of generating and visually editing bitmap fonts for use on mobile handset devices.</p>
 			<ul class="tags">
 				<li>C++</li>
 				<li>Win32</li>
@@ -100,7 +115,7 @@ $this->extend("master-template");
 		
 		<section class="column">
 			<h3>Azalea PHR</h3>
-			<p>Developed a web and cloud based Patient Health Records system as an extension of Azalea EHR that allows providers to provide their patients with online access to their health records.</p>
+			<p class="left">Developed a web and cloud based Patient Health Records system as an extension of Azalea EHR that allows providers to provide their patients with online access to their health records.</p>
 			<p><a href="http://www.azaleahealth.com/products/patient-health-portal/" target="_blank">Go to product page</a></p>
 			<ul class="tags">
 				<li>HTML</li>
@@ -115,13 +130,14 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>Patient Scheduler</h3>
-			<p>Implemented a web based patient appointment scheduling application as part of Azalea EHR and Azalea PM.</p>
+			<p class="left">Implemented a web based patient appointment scheduling application as part of Azalea EHR and Azalea PM. Appointment changes are updated in real-time using the Pusher.js real-time web library.</p>
 			<ul class="tags">
 				<li>HTML</li>
 				<li>CSS</li>
 				<li>Javascript</li>
 				<li>jQuery</li>
 				<li>Backbone.js</li>
+				<li>Pusher.js</li>
 				<li>PHP</li>
 				<li>MySQL</li>
 			</ul>
@@ -129,7 +145,7 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>Secure Messaging</h3>
-			<p>Implemented a web based messaging (e-mail) system as part of Azalea EHR and Azalea PM for the sending and receiving of HIPAA secure internal messages.</p>
+			<p class="left">Implemented a web based messaging (e-mail) system as part of Azalea EHR and Azalea PM for the sending and receiving of HIPAA secure internal messages.</p>
 			<ul class="tags">
 				<li>HTML</li>
 				<li>CSS</li>
@@ -143,7 +159,7 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>Modulerizer.js</h3>
-			<p>Modulerizer.js is a javascript library that contains loader functionality and dependency management utilities that has no other external dependencies.</p>
+			<p class="left">Modulerizer.js is a javascript library that contains loader functionality and dependency management utilities that has no other external dependencies.</p>
 			<p><a href="https://github.com/jamesatracy/Modulerizer.js" target="_blank">Go to GitHub page</a></p>
 			<ul class="tags">
 				<li>Javascript</li>
@@ -152,7 +168,7 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>Core User Interface</h3>
-			<p>Assisted in the maintenance and development of core user interface software, including the analysis and debugging of change requests, fixing software issues, and merging software changes on mobile handset devices at Kyocera-Wireless. Assisted with the integration of third party messaging, Java virtual machine, and browser clients with core user interface software.</p>
+			<p class="left">Assisted in the maintenance and development of core user interface software, including the analysis and debugging of change requests, fixing software issues, and merging software changes on mobile handset devices at Kyocera-Wireless. Assisted with the integration of third party messaging, Java virtual machine, and browser clients with core user interface software.</p>
 			<ul class="tags">
 				<li>C</li>
 				<li>BREW</li>
