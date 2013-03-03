@@ -63,7 +63,7 @@ $this->extend("master-template");
 			<hr/>
 			
 			<h3>Real-time Patient Chart</h3>
-			<p class="left">Designed and developed a web based medical charting system as part of Azalea EHR that allows the chart to be edited simultaneously and in real-time by multiple users. Makes use of the Pusher.js real-time web library.</p>
+			<p class="left">Designed and developed a web based medical charting system as part of Azalea EHR that allows the chart to be edited simultaneously and in real-time by multiple users. Makes use of the Pusher.js real-time web library. Patent Pending, "Systems and Methods for Concurrent Modification of Electronic Health Records."</p>
 			<ul class="tags">
 				<li>HTML</li>
 				<li>CSS</li>
@@ -192,6 +192,9 @@ $this->extend("master-template");
 			<a href="<?php echo Backbone::$request->link("/img/charts2.jpg"); ?>"><?php echo $this->html->image("/img/charts2.small.jpg", array("alt" => "Azalea Health Innovations Advertisement #2", "title" => "Azalea Health Innovations Advertisement #2", "width" => "380px", "height" => "266px")); ?></a>
 			<a href="<?php echo Backbone::$request->link("/img/charts4.jpg"); ?>"><?php echo $this->html->image("/img/charts4.small.jpg", array("alt" => "Azalea Health Innovations Advertisement #4", "title" => "Azalea Health Innovations Advertisement #4", "width" => "380px", "height" => "299px")); ?></a>
 		</section>
+		
+		<br/>
+		<section class="center"><a href="<?php echo Backbone::$request->link("/img/ahi_evolved.jpg"); ?>"><?php echo $this->html->image("/img/ahi.evolved.small.jpg", array("alt" => "Azalea Health Innovations - Healthcare Evolved", "title" => "Azalea Health Innovations - Healthcare Evolved", "width" => "600px", "height" => "343px")); ?></a></section>
 	</section>
 	
 	<hr/>
