@@ -6,7 +6,7 @@ That includes loading Routers and other resources (database connections, etc.).
 
 /* ----------------------------------------------------------- */
 // Set the web root path
-Backbone::$root = "/github/jamesatracy.com/";
+Backbone::$root = "/sites/jamesatracy.com/";
 
 /* ----------------------------------------------------------- */
 // Load routers
