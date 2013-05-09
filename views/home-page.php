@@ -7,7 +7,8 @@ $this->extend("master-template");
 		<header id="home-main-header" class="center">
 			<h1>James A Tracy</h1>
 			<div id="home-main-desc">
-				<p>I am a Senior Developer and Web Application Engineer with Azalea Health, where I work on web and cloud-based electronic health records, practice management, and patient portal systems.</p>
+				<p>I am currently a Web Developer with LinkedIn where I am working with the Brand and Marketing team.</p>
+				<p>Previously, I was a Senior Developer and Web Application Engineer with Azalea Health, where I worked on web and cloud-based electronic health records, practice management, and patient portal systems.</p>
 			</div>
 			<div id="home-main-icons">
 				<ul>
